@@ -1,0 +1,47 @@
+<!doctype html>
+<!--[if IE 6]><html lang="es" class="no-js ie6"><![endif]-->
+<!--[if (gt IE 6)|!(IE)]><!--><html lang="es" class="no-js"><!--<![endif]-->
+<head>
+	<!-- simplified character encoding -->
+	<meta charset="utf-8">
+
+	<title>Bootrsap Typeahead modified using ajax</title>
+	<meta name="description" content="Bootstrap typeahead modified">
+	<meta name="author" content="">
+
+	<!-- Delete these two icon references once you've placed them in the root directory with these file names -->
+	<!-- favicon 16x16 -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<!-- apple touch icon 57x57 -->
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css?v=1.0">
+	<link rel="stylesheet" href="css/style.css?v=1.0">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body class="home">
+	<div class="well">
+		<label for="country-input" accesskey="N">Look for a country: <span>*</span></label>
+		<input type="text" id="country-input" data-source="source.php" autocomplete="off" class="span8">
+		
+
+		<div id="usercard">
+			<input type="text" id="countryName" name="countryName" class="span3" disabled="true" placeholder="Firstname" />
+			<input type="text" id="countryEmail" name="countryEmail" class="span4" disabled="true" placeholder="Email" />
+			<input type="text" name="countryId" id="countryId" placeholder="#ID" disabled="true" class="span1" />
+		</div>
+
+	</div>
+
+	
+
+</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/script.js"></script>
+</html>
